@@ -24,13 +24,3 @@ title: "環境構築"
 以降はこのコンソールとエディタを使って作業を行います。
 
 ![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/GCP_cloudshell_2.png)
-
-## 作業ディレクトリ作成
-
-作業用のディレクトリを作成して移動しておきましょう。
-ディレクトツリーにも work フォルダが作成されます。
-
-```bash
-$ mkdir work
-$ cd work
-```

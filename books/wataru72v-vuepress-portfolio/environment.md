@@ -13,11 +13,11 @@ title: "環境構築"
 - **Cloud Shell** のアイコンをクリック
 - **新しいウィンドウで開く** をクリック
 
-![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/GCP_home.png)
+![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/GCP_home.png?date=20201212)
 
 - **エディタを開く** をクリック
 
-![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/GCP_cloudshell.png)
+![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/GCP_cloudshell.png?date=20201212)
 
 これでCloudShellの準備は完了です。
 

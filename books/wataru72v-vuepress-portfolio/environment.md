@@ -6,7 +6,7 @@ title: "環境構築"
 
 ハンズオンに入る前にCloud Shellで開発環境を整えていきましょう。
 
-## CloudShell を開く
+## CloudShell をセットアップ
 
 [**GCP**](https://console.cloud.google.com/)のホーム画面に移動します。
 

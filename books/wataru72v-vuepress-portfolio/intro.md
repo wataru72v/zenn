@@ -1,13 +1,14 @@
 ---
 title: "はじめに"
 ---
+
 # ご挨拶
 
 本書を手に取っていただきありがとうございます！
 
 ![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/thankyou.png)
 
-本書ではハンズオン形式でVuePressについて学びます。
+本書ではハンズオン形式で VuePress について学びます。
 実際に手を動かしてポートフォリオサイトを作ってみましょう！
 
 # 利用サービス
@@ -20,12 +21,12 @@ title: "はじめに"
 
 以下については詳しい解説は行いません。
 
-- Node.js, Javascript, Vue.jsなどの基礎
-- git, GitHubの基礎
+- Node.js, Javascript, Vue.js などの基礎
+- git, GitHub の基礎
 
 ※深く理解していなくても進められる内容になっています。
 
 :::message
-ハンズオンでは[**GCPのアカウント**](https://cloud.google.com/)と[**GitHubのアカウント**](https://github.com/)を利用します。
+ハンズオンでは[**GCP のアカウント**](https://cloud.google.com/)と[**GitHub のアカウント**](https://github.com/)を利用します。
 事前の用意をお願いします。
 :::

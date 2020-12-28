@@ -89,6 +89,21 @@ markdown が整形されて表示されていますね。
 
 # 設定ファイルを見てみる
 
+設定ファイルは`.vuepress/config.js`に記述されています。
+
+Cloud Shell Editor では検索から開く必要があるので以下の手順を実行します。
+
+::: messages
+Cloud Shell Editor は`.vuepress`のような隠しフォルダはファイルツリーに表示されないようです。
+(表示させるような設定も現時点では無いようです、なんで...)
+:::
+
+- **Search** のアイコンをクリックします。
+- 検索窓に **themeConfig** と入力します。
+- `config.js` がヒットするはずなのでそれをクリックして開きます。
+
+![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/config.png?version=1)
+
 設定ファイルの全文はこちらになります。(長いのでしまっています)
 
 :::details 設定ファイル全文
@@ -146,7 +161,7 @@ module.exports = {
 
 :::
 
-今回設定を変更するナビバーとサイドバーの部分を抜き出してみてましょう。
+今回設定を変更するナビバーとサイドバーの部分を抜き出してみてます。
 
 ```js:~/portfolio/docs/src/.vuepress/config.js(抜粋)
   themeConfig: {

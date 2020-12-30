@@ -13,6 +13,14 @@ VuePress がどのような構成で作られているか、軽く見ておき�
 
 このページは`index.md`から構成されています。
 
+Cloud Shell Editorで普通にMarkdownファイルを開くとPreviewモードになてしまうので、
+次の手順でコードが見える形で開くようにしてください。
+
+- 対象ファイルで右クリック
+- Open With > Code Editor の順位クリック
+
+![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/markdown.png?version=1)
+
 ```markdown:~/portfolio/docs/src/index.md
 ---
 home: true

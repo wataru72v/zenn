@@ -17,9 +17,6 @@ npm install -D vuepress-plugin-autonav
 設定ファイルを以下のように編集します。
 
 ```diff:~/portfolio/docs/src/.vuepress/config.js(抜粋)
-+ const autonav = {
-+   enable: true,
-+ };
 module.exports = {
   themeConfig: {
 -   nav: [
@@ -45,22 +42,21 @@ module.exports = {
 };
 ```
 
-ナビバーで表示したいファイルで次のように記述します。
+これで自動でナビバーが表示されるようになりました。
+公式と設定が異なっていますが、グローバル設定を省略しているだけです。
+ファイルごとに表示/非表示や順序を変更したいときは以下のように記述して調整します。
 
 ```markdown
 ---
-title: Page Title
-
 autonav:
   enable: true
   order: -1
 ---
 ```
 
-これでナビバーが自動で表示されるようになりました。
-
 # サイドバー
 
+サイドバーの自動表示機能は VuePress に元から備わっています。
 設定ファイルを以下のように編集します。
 
 ```diff:~/portfolio/docs/src/.vuepress/config.js(抜粋)
@@ -79,7 +75,6 @@ autonav:
 ```
 
 これで各ファイルの見出しがサイドバーに自動で表示されます。
-
 詳しい設定については[ドキュメントの Sidebar](https://vuepress.vuejs.org/theme/default-theme-config.html#sidebar)を確認してください。
 
 # 設定ファイル全文
@@ -88,9 +83,6 @@ autonav:
 
 ```js:~/portfolio/docs/src/.vuepress/config.js
 const { description } = require("../../package");
-const autonav = {
-  enable: true,
-};
 
 module.exports = {
   title: "Vuepress Docs Boilerplate",

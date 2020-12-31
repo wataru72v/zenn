@@ -17,6 +17,14 @@ title: "はじめに"
 
 ![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/利用サービス.png)
 
+# 本書で学べる事
+
+本書では以下について学ぶ事ができます。
+
+- **GCP Cloud Shell** を使った開発手順
+- **VuePress** の構築方法
+- **GitHub Pages** へのデプロイ手順
+
 # 本書で学べないこと
 
 以下については詳しい解説は行いません。

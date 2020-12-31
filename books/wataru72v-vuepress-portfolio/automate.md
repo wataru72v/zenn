@@ -7,16 +7,15 @@ title: "STEP3: メニューバーの自動化"
 # ナビバー
 
 ナビバーの表示を自動化させるために[VuePress Plugin Auto Nav Links](https://github.com/webmasterish/vuepress-plugin-autonav)を利用します。
-
 モジュールをインストールします。
 
-```properties:~/portfolio/docs/
+```properties:~/work/portfolio/docs/
 npm install -D vuepress-plugin-autonav
 ```
 
 設定ファイルを以下のように編集します。
 
-```diff:~/portfolio/docs/src/.vuepress/config.js(抜粋)
+```diff:~/work/portfolio/docs/src/.vuepress/config.js(抜粋)
 module.exports = {
   themeConfig: {
 -   nav: [
@@ -59,7 +58,7 @@ autonav:
 サイドバーの自動表示機能は VuePress に元から備わっています。
 設定ファイルを以下のように編集します。
 
-```diff:~/portfolio/docs/src/.vuepress/config.js(抜粋)
+```diff:~/work/portfolio/docs/src/.vuepress/config.js(抜粋)
   themeConfig: {
 +   sidebar: "auto",
 -   sidebar: {
@@ -81,7 +80,7 @@ autonav:
 
 設定ファイル全文は次のようになります。
 
-```js:~/portfolio/docs/src/.vuepress/config.js
+```js:~/work/portfolio/docs/src/.vuepress/config.js
 const { description } = require("../../package");
 
 module.exports = {

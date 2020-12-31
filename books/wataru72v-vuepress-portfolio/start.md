@@ -9,7 +9,7 @@ title: "STEP2: VuePressの導入"
 以下のコマンドをコンソールで実行してください。
 プロジェクト名など色々と質問されますが、全て Enter で大丈夫です。
 
-```properties:~/
+```properties:~/work
 npx create-vuepress-site portfolio
 ```
 
@@ -68,7 +68,7 @@ docs のさらに下に **src** というディレクトリがあり、ここで
 まだ必要なモジュールが揃っていないのでインストールしていきます。
 doxs ディレクトリに移動して次のコマンド実行してください。
 
-```properties:~/
+```properties:~/work
 cd ~/portfolio/docs
 npm install
 ```
@@ -78,7 +78,7 @@ npm install
 VuePress をローカルでプレビューします。
 用意されているコマンドがあるのでそれを実行します。
 
-```properties:~/portfolio/docs
+```properties:~/work/portfolio/docs
 npm run dev
 ```
 

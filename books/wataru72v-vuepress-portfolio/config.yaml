@@ -10,5 +10,6 @@ chapters:
   - overview.md
   - environment.md
   - start.md
-  - howto.md
+  - composition.md
   - automate.md
+  - top.md

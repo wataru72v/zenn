@@ -42,8 +42,8 @@ $codeBgColor = #282c34
 VuePress では画像は`.vuepress/`配下の`public/`に配置するという決まりがあります。
 以下コマンドを実行して`public/`フォルダを作成します。
 
-```properties:~/work/portfolio/docs
-mkdir ~/work/portfolio/docs/src/.vuepress/public
+```properties:~/work/portfolio/docs/src
+mkdir .vuepress/public
 ```
 
 `public/`の中に画像をアップロードします。

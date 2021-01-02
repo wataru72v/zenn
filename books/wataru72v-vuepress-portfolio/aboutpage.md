@@ -1,12 +1,8 @@
 ---
-title: "STEP5: Aboutページの作成"
+title: "STEP5: コンテンツページの作成"
 ---
 
-About ページとして次のようなページを作成していきます。
-
-![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/aboutpage.png?version=1)
-
-# MD ファイルの作成
+# Markdown ファイルの作成
 
 不要なページの削除と追加するページの作成を行います。
 サンプルページはここでは不要なため削除してしまいましょう。
@@ -22,6 +18,7 @@ rm -rf guide/
 
 ```properties:~/work/portfolio/docs/src/
 touch about.md
+touch service.md
 touch product.md
 touch sns.md
 ```
@@ -35,6 +32,7 @@ portfolio/
     ├── package.json
     └── src
         ├── 'about.md' ---------------- 📄 aboutページ
+        ├── 'service.md' -------------- 📄 serviceページ
         ├── 'product.md' -------------- 📄 productページ
         ├── 'sns.md' ------------------ 📄 snsページ
         ├── 'index.md' ---------------- 🏠 トップページ
@@ -45,7 +43,13 @@ portfolio/
             └── styles
 ```
 
-# ナビバー設定
+# About ページ
+
+About ページとして次のようなページを作成していきます。
+
+![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/aboutpage.png?version=1)
+
+## ナビバー設定
 
 ナビバーに表示させる設定を記述します。
 
@@ -60,7 +64,7 @@ autonav:
 `order` はナビバーの並び替えで利用する数字で、小さいほど左側に来ます。
 後から間への差し込みなどができるように、以降も 8 の倍数の値を設定してきます。
 
-# Profile
+## Profile
 
 プロフィール部分を以下のように記入します。
 好みの画像、文字で作成してください。
@@ -81,7 +85,7 @@ autonav:
 大好物はサツマイモ。
 ```
 
-# Skills
+## Skills
 
 スキル部分は画像を並べて表現しています。
 アイコンを挿入した時と同様の手順で画像を`.vuepress/public`にアップロードします。
@@ -129,12 +133,13 @@ export default {
 ```
 
 VuePress では markdown ファイルの中で vue.js が利用できます。
-ここでは images の配列の中の要素を for 文で回すようにして画像を表示させています。
-画像サイズは margin 込みで 25%になるように調整しています。
+`data()`で定義した`images`の配列の中の要素を`v-for`で回して画像を表示させています。
+`<img>`タグの`src`要素には、画像場所のパスである`image.path`を渡しています。
+画像サイズは margin 込みで 25%になるように調整して、4 つ並ぶようにしています。
 
 ![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/skill.png?version=1)
 
-# About ページ全文
+## About ページ全文
 
 About ページの全文は以下のようになります。
 
@@ -163,15 +168,8 @@ autonav:
 ## Skills
 
 <template>
-  <img class="skill" v-for="image in images" :src="image.path"/>
+  <img class="skill" v-for="image in images" :src="image.path" style="width: 19%; margin: 3%;"/>
 </template>
-
-<style>
-.skill {
-  width: 19%;
-  margin: 3%;
-}
-</style>
 
 <script>
 export default {
@@ -191,3 +189,21 @@ export default {
 ```
 
 :::
+
+# Service ページ
+
+作成したサービスを並べるページを作成しますが、
+まだ発表できるものはないので空白のままページだけ作成します。
+「絶賛開発中！」としておきましょう。
+
+```markdown:~/work/portfolio/docs/src/service.md
+---
+autonav:
+  enable: true
+  order: 16
+---
+
+# Service
+
+絶賛開発中！
+```

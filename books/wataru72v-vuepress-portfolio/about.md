@@ -8,10 +8,10 @@ title: "VuePressについて"
 
 ![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/VuePressキャプチャ.png)
 
-**Markdown テキスト** から、 **Vue の公式ドキュメント** のような、
+**Markdown テキスト**から、**Vue の公式ドキュメント**のような、
 クオリティの高いドキュメントやブログサイトなどを簡単に作成することができます。
 
-また、Markdown ファイルの中では **Vue を記述** することも可能です。
+また、Markdown ファイルの中では **Vue.js を記述** することも可能です。
 
 ![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/Vuepressとは_01.png)
 
@@ -22,7 +22,6 @@ title: "VuePressについて"
 裏側にサーバーを配置する必要がなく、ドキュメントやブログなどの読み物の作成に適しています。
 逆にユーザーからのリクエストを頻繁に処理するようなサービスには向きません。
 
-SSR や SPA と並べて説明されることが多いので合わせて紹介しておきます。
-最近のモダンなフレームワークでは、どのような形でサービスを公開するか選べるようですね。
+SSR や SPA と比較すると次のようになります。
 
 ![](https://github.com/wataru72v/zenn/raw/main/books/wataru72v-vuepress-portfolio/image/VurPress_02.png)

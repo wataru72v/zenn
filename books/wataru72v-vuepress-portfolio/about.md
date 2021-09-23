@@ -1,5 +1,6 @@
 ---
 title: "VuePressについて"
+free: true
 ---
 
 # VuePress とは

@@ -1,8 +1,8 @@
 title: "Vuepressでポートフォリオ作成ハンズオン"
 summary: "Vuepressでポートフォリオ作成ハンズオン"
-topics: ["html", "javascript", "vue"]
+topics: ["javascript", "vue", "vuepress", "ssg"]
 published: false
-price: 0 # 有料の場合200〜5000
+price: 500 # 有料の場合200〜5000
 # 本に含めるチャプターを順番に並べましょう
 chapters:
   - intro.md
